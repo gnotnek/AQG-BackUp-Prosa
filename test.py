@@ -9,6 +9,6 @@ os.system(
             -src free_input.txt \
             -output free_input_pred.txt -replace_unk \
             -beam_size 2 \
-            -max_length 4 \
+            -max_length 22 \
             -verbose'
 )
